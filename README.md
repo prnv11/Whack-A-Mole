@@ -157,32 +157,6 @@ java -version
 javac -version
 ```
 
-### Compile
-
-From the project root directory:
-
-#### Linux / macOS / Git Bash
-
-```bash
-javac -d out $(find . -name "*.java")
-```
-
-#### Windows PowerShell
-
-```powershell
-Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullName } | javac -d out
-```
-
-### Run
-
-```bash
-java -cp out Main
-```
-
-The game's graphical interface will launch.
-
----
-
 ## Gameplay
 
 1. Launch the application using `Main.java`.
@@ -213,7 +187,7 @@ This project provides practical implementation of several Java concepts:
 * Java Swing
 * Event Dispatch Thread
 * Collections
-* `Comparator`
+* Comparator
 * Java Streams
 * Object serialization
 * File I/O
