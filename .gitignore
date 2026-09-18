@@ -1,0 +1,26 @@
+# Compiled Java files
+*.class
+
+# Java compilation output
+out/
+bin/
+build/
+
+# Generated high-score data
+scores.dat
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
